@@ -1,0 +1,60 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Big Shoulders Stencil Display', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #B0F428;
+}
+
+hr {
+	border-color: #B0F428;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.style:hover {
+	border-color: #B0F428;
+	border-width: 4px;
+	color: #B0F428;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+
+}
+
+
+.btn-warning {
+	color: #291900;
+	border-radius: #EF9500;
+	background-color: #B0F428;
+	border-color: #101409;
+}
+
+.btn-warning:hover {
+	background-color: #101409;
+	border-color: #B0F428;
+	border-width: 4px;
+	color: #B0F428;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+
+}
+
